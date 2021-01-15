@@ -30,7 +30,7 @@ h1{
   position: relative;
   background-image: url("../img/pattern.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   margin: 5px;
 }
 .fissa{
@@ -61,11 +61,8 @@ h4{
   left: 35px;
   text-align: center;
   text-shadow:2px 2px lightgray;
-  display: none;
+  display:none;
 }
-/* .visibile:hover{
-  display:inline-block;
-} */
 .baloon:hover{
 background-image: url("../img/air-baloon.svg");
 background-repeat: no-repeat;
@@ -96,7 +93,7 @@ background-position: center;
   background-repeat: no-repeat;
   background-position: center;
 }
-.baloon:hover.visibile{
+.h4:hover .visibile{
   display: block;
 }
 footer{
@@ -105,4 +102,7 @@ footer{
   text-align: center;
   font-size: 14px;
   text-shadow:1px 1px rgb(0, 0, 0.3);
+}
+.box:hover .visibile{
+  display: inline-block;
 }
