@@ -11,4 +11,18 @@ h1{
   color: white;
   text-align: center;
   font-size: 84px;
+  text-shadow:2px 2px rgb(0, 0, 0.3);
+}
+.contenitore{
+  width: 1500 px;
+  height: 2000 px;
+  text-align: center;
+}
+.box{
+  width: 150px;
+  height: 200px;
+  background-color: red;
+  border-radius: 10%;
+  margin: auto;
+  display: inline-block;
 }
