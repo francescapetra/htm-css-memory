@@ -21,15 +21,28 @@ h1{
 .box{
   width: 150px;
   height: 200px;
-  background-color:lightgray;
+  background-color:white;
   border: 1px solid gray;
   border-radius: 10%;
   margin: auto;
   display: inline-block;
   box-shadow: 2px 2px rgb(0, 0, 0.3);
+  position: relative;
 }
 .fissa{
   background-image: url("../img/air-baloon.svg");
   background-repeat: no-repeat;
   background-size: auto;
+}
+h4{
+  position: absolute;
+  display: inline-block;
+  font-family: 'Nerko One', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f400a1;
+  bottom: 0;
+  left: 35px;
+  text-align: center;
+  text-shadow:2px 2px lightgray;
 }
