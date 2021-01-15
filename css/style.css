@@ -62,9 +62,33 @@ h4{
   text-align: center;
   text-shadow:2px 2px lightgray;
 }
-
 .baloon:hover{
 background-image: url("../img/air-baloon.svg");
 background-repeat: no-repeat;
 background-position: center;
+}
+.trattore:hover{
+  background-image: url("../img/trattore.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tram:hover{
+  background-image: url("../img/tram.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bicicletta:hover{
+  background-image: url("../img/bicicletta.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sottomarino:hover{
+  background-image: url("../img/sottomarino.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.crociera:hover{
+  background-image: url("../img/crociera.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
