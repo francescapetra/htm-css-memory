@@ -98,5 +98,11 @@ background-position: center;
 }
 .baloon:hover.visibile{
   display: block;
-
+}
+footer{
+  font-family: 'Nerko One', cursive;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  text-shadow:1px 1px rgb(0, 0, 0.3);
 }
